@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="Theme.PageIndicatorDefaults" parent="android:Theme">-->
+        <!--<item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>-->
+        <!--<item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>-->
+    <!--</style>-->
+
+    <!--<style name="Widget">-->
+    <!--</style>-->
+
+    <!--<style name="Widget.TabPageIndicator" parent="Widget">-->
+        <!--<item name="android:gravity">center</item>-->
+        <!--<item name="android:background">@drawable/vpi__tab_indicator</item>-->
+        <!--<item name="android:paddingLeft">22dip</item>-->
+        <!--<item name="android:paddingRight">22dip</item>-->
+        <!--<item name="android:paddingTop">12dp</item>-->
+        <!--<item name="android:paddingBottom">12dp</item>-->
+        <!--<item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>-->
+        <!--<item name="android:textSize">12sp</item>-->
+        <!--<item name="android:maxLines">1</item>-->
+    <!--</style>-->
+
+    <!--<style name="TextAppearance.TabPageIndicator" parent="Widget">-->
+        <!--<item name="android:textStyle">bold</item>-->
+        <!--<item name="android:textColor">@color/vpi__dark_theme</item>-->
+    <!--</style>-->
+
+    <!--<style name="Widget.IconPageIndicator" parent="Widget">-->
+        <!--<item name="android:layout_marginLeft">6dp</item>-->
+        <!--<item name="android:layout_marginRight">6dp</item>-->
+    <!--</style>-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ImageView_splash">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:src">@drawable/splash_horse_newyear</item>
+
+    </style>
+
+    <style name="RadioButtom_Buttom">
+        <item name="android:textColor">@drawable/selector_radiobtn_textcolor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#898989</item>
+        <item name="android:button">@null</item>
+
+    </style>
+    <style name="FullScreen_themme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+    <style name="no_themme" parent="@android:style/Theme.Light.NoTitleBar"/>
+
+</resources>

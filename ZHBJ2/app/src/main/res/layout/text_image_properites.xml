@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--控件-->
+    <!--android:scaleType=""-->
+    <!--fitxy src 填充Backgorund 不安比例-->
+    <!--cnetenr  centerInside 图片 压缩显示-->
+    <!--src 填充background 按比例放大裁切-->
+  <ImageView
+      android:layout_width="122dp"
+      android:layout_margin="8dp"
+      android:scaleType="centerCrop"
+      android:src="@mipmap/ic_launcher"
+      android:background="#415f99"
+      android:layout_height="92dp" />
+</RelativeLayout>
